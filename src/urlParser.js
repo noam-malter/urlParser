@@ -7,7 +7,7 @@ var urlParser = (function() {
 
     var parsePairs = function(pairs) {
         var params = {};
-        for (var i= 0, l=pairs.length; i<l; i++) {
+        for (var i = 0, l=pairs.length; i<l; i++) {
             var pair = parsePair(pairs[i]);
             params[pair.key] = pair.value;
         }
