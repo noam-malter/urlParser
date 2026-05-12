@@ -1,0 +1,20 @@
+{
+  "name": "url-parser",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "src/urlParser.js",
+  "main": "dist/urlParser.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "babel-loader": "^9.1.3",
+    "vitest": "^2.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
